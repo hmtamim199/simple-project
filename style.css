@@ -20,6 +20,8 @@ img {
 }
 
 .top-banner {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
   display: flex;
 }
 
@@ -27,5 +29,16 @@ img {
   color: black;
   background-color: orange;
   padding: 8px;
+  text-decoration: none;
   border-radius: 5px;
+}
+
+.dream-big {
+  display: flex;
+}
+
+.dream-big {
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
